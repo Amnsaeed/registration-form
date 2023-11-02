@@ -7,8 +7,8 @@ const Navbar = () => {
 
       <div className="button-bar">
 
-      <a className="home-button" href="/"> Home </a>
-      <a href="/create"> Submit New Form </a>
+      
+      <a href="/"> Submit New Form </a>
 
 
       </div>

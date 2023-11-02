@@ -4,9 +4,7 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: Roboto Slab, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -25,7 +23,8 @@ code {
     box-shadow: 1px 1px 2px rgba(151, 148, 148, 0.5);
     padding: 20px;
     align-items: center;
-    font-family: Roboto, sans-serif;  
+    font-family: Roboto Slab, serif;
+
   
   
   }
@@ -61,4 +60,101 @@ code {
   margin-right: 30px;
 
 }
+
+
+.form-preview {
+
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+  font-family: Roboto Slab, serif;
+  font-size: 16px;
+  color: rgb(176, 42, 42);
+  box-shadow: 1px 1px 2px rgba(151, 148, 148, 0.5);
+  padding-bottom: 10px;
+  
+  
+
+
+
+}
+
+
+.form-preview form {
+
+  box-shadow: none;
+
+
+}
+
+
+
+.form-preview input,
+.form-preview textarea {
+
+  margin-right: 15px;
+  padding: 7px;
+  border-width: 1px;
+  border-color: lightgray;
+  border-radius: 5px;
+  border-style: solid;
+  margin-left: 5px;
+
+
+
+
+}
+
+.area-code {
+
+    width: 50px;
+  
+   
+
+}
+
+
+
+.add-div {
+
+  display: flex;
+  align-items: center;
+
+
+}
+
+
+.submit-div {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+
+
+}
+
+.submit-div button {
+
+  width: fit-content; 
+  color: rgb(249, 238, 238);
+  background-color: rgb(7, 137, 137);
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  
+  
+}
+
+
+.submitted {
+
+  margin-left: 25px;
+
+}
+
 
